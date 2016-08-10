@@ -1,0 +1,41 @@
+{
+  "name": "koa2-react-boilerplate",
+  "version": "0.0.1",
+  "description": "An example for react, webpack, babel commbined to koa2",
+  "main": "server.js",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ole3021/koa2-react-boilerplate.git"
+  },
+  "author": "Oliver Wang <ole3021@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ole3021/koa2-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ole3021/koa2-react-boilerplate#readme",
+  "dependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-2": "^6.13.0",
+    "koa": "^2.0.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "nodemon": "^1.10.0",
+    "standard": "^7.1.2"
+  }
+}
