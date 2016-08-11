@@ -13,7 +13,7 @@
     "parser": "babel-eslint"
   },
   "scripts": {
-    "start": "nodemon server.js --exec babel-node",
+    "start": "./node_modules/.bin/nodemon server.js --exec babel-node",
     "test": "./node_modules/.bin/mocha --compilers js:babel-core/register ./test/*.js"
   },
   "repository": {
